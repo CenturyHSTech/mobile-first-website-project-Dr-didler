@@ -1,0 +1,135 @@
+
+nav{
+  background-color: #faffe6;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  padding: 0px;
+  height: 65px;
+  transition: height 0.5s ease-in;
+}
+
+nav ul{
+  position: relative;
+  list-style-type: none;
+  z-index: -1;
+  flex-direction: column;
+  margin: 0 3em 0 1;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  transform: translateY(0);
+  transition: transform 1.2s ease-in;
+}
+
+nav ul a{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  background-color: #faffe6;
+  color: #3f3b27;
+}
+nav ul a:hover{
+  color: bisque;
+  background-color: #3f3b27;
+}
+
+a.hamburrg-toggle{
+  display: flex;
+  flex-direction: column;
+  padding:3px;
+  margin:2px;
+  width: 35px;
+  border: 1px solid black;
+
+}
+span.bar{
+  display: inline-block;
+  width: 35px;
+  height: 5px;
+  background-color: cover;
+  margin: 6px 0;
+}
+
+a.logo{
+  text-indent: -1000px;
+  background-image: url(pictures/Xdr_baking.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 10px;
+}
+
+ul.hidden{
+  transform: translateY(-300px);
+  transition: transform 1.2s ease-in;
+}
+
+nav.minimized{
+  height: 40px;
+  transition: transform 1.2s ease-in;
+}
+
+@media screen and (min-width: 35em){
+  nav ul{
+      flex-direction: row;
+  }
+  
+}
+
+
+
+.index-home-page{
+  background-image: url(pictures/actualshii.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
+}
+
+.cobbler-page{
+  background-image: url(pictures/cobbler-bg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
+}
+
+.bannana_page{
+  background-image: url(pictures/bananabg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
+}
+
+.angel_food{
+  background-image: url(pictures/angel_cake_bg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
+}
+
+body{
+  background-color: #faffe6;
+  color: #3f3b27;
+}
+
+h1{
+  clear: both;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  margin: 25px 50px;
+  text-shadow: 0 0 3px #faffe6;
+}
+
+h2,h3{
+  font-family: "Chivo", sans-serif;
+  color: #3f3b27;
+}
+
+p,ol,a{
+  font-family: "Poiret One", sans-serif;
+  color: #3f3b27;
+}
+
+img{
+  max-width: 200px;
+  border-radius: 20px;
+}
