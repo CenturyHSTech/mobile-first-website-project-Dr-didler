@@ -1,6 +1,5 @@
 
 nav{
-  background-color: #faffe6;
   margin: 0;
   position: fixed;
   top: 0;
@@ -41,21 +40,21 @@ a.hamburrg-toggle{
   margin:2px;
   width: 35px;
   border: 1px solid black;
-
+  background-color: #faffe6;
 }
 span.bar{
   display: inline-block;
   width: 35px;
   height: 5px;
-  background-color: cover;
+  background-color: black;
   margin: 6px 0;
 }
 
 a.logo{
-  text-indent: -1000px;
-  background-image: url(pictures/Xdr_baking.png);
+  color: transparent;
+  background-image: url(pictures/Xander_baking.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 10px 10px;
 }
 
