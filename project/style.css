@@ -52,20 +52,22 @@ span.bar{
 
 a.logo{
   color: transparent;
-  background-image: url(pictures/Xander_baking.png);
+  background-image: url(pictures/xander_baking.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 10px 10px;
+  width: 150px;
+  height: 150px;
 }
 
 ul.hidden{
   transform: translateY(-300px);
-  transition: transform 1.2s ease-in;
+  transition: transform 0.8s ease-in;
 }
 
 nav.minimized{
   height: 40px;
-  transition: transform 1.2s ease-in;
+  transition: transform 0.8s ease-in;
 }
 
 @media screen and (min-width: 35em){
