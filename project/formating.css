@@ -1,4 +1,4 @@
-p,ol,h2{
+p,ol,h2,footer,h3,.bot_link{
     text-align: center;
     max-width: 400px;
     padding-left: 600px;
@@ -10,14 +10,6 @@ p,ol,h2{
     padding: 50px;
     float: right;
     padding-right: 300px;
-}
-
-footer,h3,.bot_link{
-    text-decoration: none;
-    text-align: center;
-    padding: 1px;
-    padding-left: 600px;
-    float: center;
 }
 
 .main{
@@ -51,8 +43,9 @@ body{
 hgroup{
     padding: 1px;
 }
+
 @media screen and (min-width: 45em){
-    p,ol,h2{
+    p,ol,h2,footer,h3,.bot_link{
         text-align: center;
         max-width: 400px;
         padding-left: 600px;
